@@ -23,7 +23,8 @@ export class AppService {
 
   async submitCode(codetoSubmit) {
     this.testcasePass=0
-
+    
+    
 
     this.testcase1(codetoSubmit)
     this.testcase2(codetoSubmit)
